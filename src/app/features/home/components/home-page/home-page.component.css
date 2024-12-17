@@ -1,0 +1,18 @@
+/* Ellipse 6 */
+
+position: absolute;
+width: 1135px;
+height: 1061px;
+left: calc(50% - 1135px / 2 + 0.5px);
+top: -531px;
+
+background: linear-gradient(180deg, rgba(43, 255, 255, 0) 30%, rgba(43, 255, 255, 0.3) 100%);
+filter: blur(135px);
+
+/* Vector */
+
+position: absolute;
+width: 1285.72px;
+height: 651.3px;
+left: calc(50% - 1285.72px / 2 + 0.05px);
+top: -27.3px;

@@ -8,7 +8,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:frontend-starterkit": "node dist/frontend-starterkit/server/server.mjs"
+    "serve:ssr:frontend-starterkit": "node dist/frontend-starterkit/server/server.mjs",
+    "commit": "node commit.cjs"
   },
   "private": true,
   "dependencies": {

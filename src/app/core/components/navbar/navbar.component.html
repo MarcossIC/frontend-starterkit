@@ -1,0 +1,21 @@
+<nav class="relative z-10">
+  <div
+    class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-[#00F0C0] to-transparent opacity-50 pointer-events-none select-none z-[1]"></div>
+  <div
+    class="absolute inset-0 bg-gradient-to-r from-transparent select-none pointer-events-none via-[#00F0C0]/5 to-transparent z-[1]"
+    [style]="getMask()"></div>
+  <div class="flex items-center justify-between z-10 p-6">
+    <div class="flex items-center gap-3">
+      <div class="h-8 w-8 rounded-full bg-[#00F0C0]"></div>
+      <span class="text-xl font-medium text-white">Ovrall</span>
+    </div>
+    <div class="hidden md:flex items-center gap-12">
+      @for (item of getLinks(); track item.id) {
+      <app-link [label]="item.label" [href]="item.path" />
+      }
+    </div>
+    <button class="bg-[#00F0C0] text-black hover:bg-[#00F0C0]/90 font-medium px-6">
+      Get Started
+    </button>
+  </div>
+</nav>

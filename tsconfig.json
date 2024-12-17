@@ -15,13 +15,19 @@
     "declaration": false,
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
+    "baseUrl": "src",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"],
+    "paths": {
+      "@home/*": ["app/features/home/*"],
+      "@features/*": ["app/features/*"],
+      "@core/*": ["app/core/*"],
+      "@app/*": ["app/*"],
+      "@assets/*": ["assets/*"],
+      "@/*": ["."]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

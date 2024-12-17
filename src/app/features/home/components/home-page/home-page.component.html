@@ -1,0 +1,37 @@
+<div
+  class="absolute inset-0 opacity-20 pointer-events-none select-none overflow-hidden z-[1]"
+  [ngStyle]="getGradientPattern()"></div>
+<div
+  class="absolute inset-0 pointer-events-none select-none z-[1]"
+  [ngStyle]="getGradientOverlay()"></div>
+<div
+  class="absolute inset-0 pointer-events-none select-none z-[1]"
+  [ngStyle]="getSecondGradientOverlay()"></div>
+<main class="relative container mx-auto px-6 pt-20 text-center z-10">
+  <div class="mx-auto max-w-3xl space-y-8">
+    <div class="inline-block">
+      <p class="text-gray-400 px-6 py-2 rounded-full border border-[#00F0C0]/20 bg-[#00F0C0]/5">
+        Your preferred implementation guide
+      </p>
+    </div>
+    <h1
+      class="text-4xl md:text-5xl lg:text-6xl font-medium text-white leading-tight [text-shadow:_0_0_30px_rgba(0,240,192,0.1)]">
+      Learn and implement
+      <br />
+      The best components
+    </h1>
+    <div class="space-y-2 text-gray-400">
+      <p>
+        Frontend Starter Kit you will find everything from reusable interfaces to popular library
+        integrations.
+      </p>
+      <p>Optimize your time and improve the quality of your code</p>
+    </div>
+
+    <div class="flex items-center justify-center gap-2 pt-4">
+      <button class="bg-[#00F0C0] text-black hover:bg-[#00F0C0]/90 font-medium px-6">
+        Get Started
+      </button>
+    </div>
+  </div>
+</main>
